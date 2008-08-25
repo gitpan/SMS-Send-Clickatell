@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:                SMS-Send-Clickatell
-version:             0.01
+version:             0.02
 abstract:            SMS::Send Clickatell Driver
 license:             ~
 author:              
@@ -13,6 +13,7 @@ requires:
     SMS::Send:                     0
     Test::MockObject:              0
     Test::More:                    0
+    URI:                           0
 meta-spec:
     url:     http://module-build.sourceforge.net/META-spec-v1.3.html
     version: 1.3

@@ -14,6 +14,7 @@ WriteMakefile(
 	'SMS::Send' => 0,
 	'HTTP::Request::Common' => 0,
 	'LWP::UserAgent' => 0,
+	'URI' => 0,
     },
     dist                => { COMPRESS => 'gzip -9f', SUFFIX => 'gz', },
     clean               => { FILES => 'SMS-Send-Clickatell-*' },

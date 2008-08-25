@@ -9,11 +9,11 @@ SMS::Send::Clickatell - SMS::Send Clickatell Driver
 
 =head1 VERSION
 
-Version 0.01
+Version 0.02
 
 =cut
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 =head1 SYNOPSIS
     
@@ -34,20 +34,6 @@ most basic of functionality required by the author so he could use
 SMS::Send.
 
 If you need more functionality, patches welcome.
-=head1 NAME
-
-SMS::Send::Clickatell - The great new SMS::Send::Clickatell!
-
-=head1 SYNOPSIS
-
-Quick summary of what the module does.
-
-Perhaps a little code snippet.
-
-    use SMS::Send::Clickatell;
-
-    my $foo = SMS::Send::Clickatell->new();
-    ...
 
 =head1 AUTHOR
 
@@ -111,13 +97,7 @@ use HTTP::Request::Common qw(POST);
 
 require LWP::UserAgent;
 
-use vars qw{$VERSION};
-BEGIN {
-	$VERSION = '0.05';
-}
-
 our $http_protocol;
-
 
 #####################################################################
 # Constructor
